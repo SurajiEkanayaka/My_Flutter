@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 
 void main() {
   runApp(MaterialApp(
+
+
     home: Scaffold(
       
       appBar: AppBar(
@@ -12,8 +14,10 @@ void main() {
         child: Text('Hello Everyone'),
       ),
       floatingActionButton: FloatingActionButton(
+        onPressed: () {  },
         child: Text('Click'),
       ),
+
     ),
   ));
 }
